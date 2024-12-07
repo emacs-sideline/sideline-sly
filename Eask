@@ -15,4 +15,4 @@
 
 (depends-on "emacs" "28.1")
 (depends-on "sideline")
-(depends-on "sly-overlay")
+(depends-on "sly")

@@ -6,7 +6,7 @@
 ;; Maintainer: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; URL: https://github.com/emacs-sideline/sideline-sly
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "28.1") (sideline "0.1.0") (sly-overlay "1.0.1"))
+;; Package-Requires: ((emacs "28.1") (sideline "0.1.0") (sly "1.0.43"))
 ;; Keywords: convenience
 
 ;; This file is not part of GNU Emacs.
@@ -32,7 +32,7 @@
 ;;; Code:
 
 (require 'sideline)
-(require 'sly-overlay)
+(require 'sly)
 
 (defgroup sideline-sly nil
   "Show SLY result with sideline."
