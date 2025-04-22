@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "sideline-sly"
          "0.1.0"
          "Show SLY result with sideline")
